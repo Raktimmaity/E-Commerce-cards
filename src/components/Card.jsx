@@ -14,9 +14,9 @@ function Card({cardTitle = "Product", ram, rom, battery, image, price, actPrice,
   if (value == 0) {
     setValue(1);
   }
-  if(value == 2){
-    setValue(price * 2);
-  }
+  // if(value >= 2){
+  //   price = parseInt(price) * 2;
+  // }
   return (
     <div>
       <div class="w-[300px] rounded-md border">
